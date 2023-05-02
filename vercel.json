@@ -1,0 +1,12 @@
+{
+  "rewrites": [
+    {
+      "source": "/admin/",
+      "destination": "https://lerna-test-admin.vercel.app"
+    },
+    {
+      "source": "/",
+      "destination": "https://lerna-test-client-iig6ppvpc-dangquangthinh1999.vercel.app/"
+    }
+  ]
+}
