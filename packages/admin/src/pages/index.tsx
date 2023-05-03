@@ -1,8 +1,10 @@
 import Head from "next/head";
 import Image from "next/image";
 import { Inter } from "next/font/google";
-import styles from "@/styles/Home.module.css";
-import { Button } from "ui-components";
+import stylesPage from "./styles.module.scss";
+import styles from "../styles/Home.module.css";
+import { ButtonUI } from "core-ui";
+import { Button } from "antd";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -18,7 +20,7 @@ export default function Home() {
 
       <main className={`${styles.main} ${inter.className}`}>
         <div className={styles.description}>
-          <p>
+          <p className={stylesPage.title}>
             Get started by editing&nbsp;
             <code className={styles.code}>src/pages/index.tsx</code>
           </p>
@@ -28,30 +30,17 @@ export default function Home() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              By{" "}
-              <Image
-                src="/vercel.svg"
-                alt="Vercel Logo"
-                className={styles.vercelLogo}
-                width={100}
-                height={24}
-                priority
-              />
+              Admin Page
             </a>
-            <Button> ADMIN</Button>
+            <ButtonUI> ADMIN</ButtonUI>
+            <Button type="primary" shape="round" size="large">
+              {" "}
+              BUTTON ANTD
+            </Button>
           </div>
         </div>
 
-        <div className={styles.center}>
-          <Image
-            className={styles.logo}
-            src="/next.svg"
-            alt="Next.js Logo"
-            width={180}
-            height={37}
-            priority
-          />
-        </div>
+        <div className={styles.center}>Admin Page</div>
 
         <div className={styles.grid}>
           <a

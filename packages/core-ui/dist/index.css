@@ -1,9 +1,12 @@
 /* add css module styles here (optional) */
-
-._3ybTi {
+._styles-module__test__3wJe6 {
   margin: 2em;
   padding: 0.5em;
   border: 2px solid #000;
   font-size: 2em;
   text-align: center;
+}
+
+._styles-module__red__1i6CQ {
+  color: red;
 }

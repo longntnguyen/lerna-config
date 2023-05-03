@@ -1,10 +1,10 @@
 {
-  "name": "ui-components",
+  "name": "core-ui",
   "version": "1.0.0",
   "description": "Made with create-react-library",
-  "author": "DangQuangThinh1999",
+  "author": "",
   "license": "MIT",
-  "repository": "DangQuangThinh1999/ui-components",
+  "repository": "",
   "main": "dist/index.js",
   "module": "dist/index.modern.js",
   "source": "src/index.tsx",
@@ -24,7 +24,8 @@
     "deploy": "gh-pages -d example/build"
   },
   "peerDependencies": {
-    "react": "^16.0.0"
+    "react": "^16.0.0",
+    "antd": "5.4.6"
   },
   "devDependencies": {
     "@testing-library/jest-dom": "^4.2.4",
@@ -55,7 +56,8 @@
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-scripts": "^0.2.3",
-    "typescript": "^3.7.5"
+    "typescript": "^3.7.5",
+    "sass": "1.62.1"
   },
   "files": [
     "dist"

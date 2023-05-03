@@ -7,7 +7,7 @@
 ## Install
 
 ```bash
-npm install --save ui-components
+npm install --save core-ui
 ```
 
 ## Usage
@@ -15,8 +15,8 @@ npm install --save ui-components
 ```tsx
 import React, { Component } from 'react'
 
-import MyComponent from 'ui-components'
-import 'ui-components/dist/index.css'
+import MyComponent from 'core-ui'
+import 'core-ui/dist/index.css'
 
 class Example extends Component {
   render() {
@@ -26,5 +26,3 @@ class Example extends Component {
 ```
 
 ## License
-
-MIT © [DangQuangThinh1999](https://github.com/DangQuangThinh1999)
